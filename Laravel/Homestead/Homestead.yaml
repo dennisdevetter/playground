@@ -4,10 +4,10 @@ memory: 2048
 cpus: 1
 provider: virtualbox
 
-authorize: C:/users/ddev/.ssh/id_rsa.pub
+authorize: C:/users/ddeve/.ssh/id_rsa.pub
 
 keys:
-    - C:/users/ddev//.ssh/id_rsa
+    - C:/users/ddeve/.ssh/id_rsa
 
 folders:
     - map: ../Projects
