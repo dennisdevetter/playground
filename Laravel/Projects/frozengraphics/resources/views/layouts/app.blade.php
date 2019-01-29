@@ -20,8 +20,8 @@
     </div>
 
     <!-- Scripts -->
-    <script src="{{ mix('js/manifest.js') }}"></script>
-    <script src="{{ mix('js/vendor.js') }}"></script>
-    <script src="{{ mix('js/app.js') }}"></script>
+    <script charset="utf-8" src="{{ mix('js/manifest.js') }}" ></script>
+    <script charset="utf-8" src="{{ mix('js/vendor.js') }}"></script>
+    <script charset="utf-8" src="{{ mix('js/app.js') }}"></script>
 </body>
 </html>

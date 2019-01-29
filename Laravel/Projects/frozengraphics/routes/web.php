@@ -11,6 +11,18 @@
 |
 */
 
-Route::get('/', 'PagesController@home');
-Route::get('/about', 'PagesController@about');
-Route::get('/projects', 'ProjectsController@index');
+/*
+
+    GET /projects (index)
+    GET /projects/create (create)
+    GET /projects/1 (show)
+    POST /projects (store)
+    GET /projects/1/edit (edit)
+    PATCH /projects/1 (update)
+    DELETE /projects/1 (destroy)
+
+*/
+
+
+Route::resource('/', 'HomeController')->only(['index']);
+Route::resource('projects', 'ProjectsController');

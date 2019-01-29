@@ -4,9 +4,15 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class PagesController extends Controller
+class HomeController extends Controller
 {
-    public function home() {
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function index()
+    {
         $tasks = [
             'Go to the store',
             'Go to the market',
@@ -16,9 +22,5 @@ class PagesController extends Controller
         return view('home')->with([
             'tasks' => $tasks
         ]);
-    }
-
-    public function about() {
-        return view('about');
     }
 }
