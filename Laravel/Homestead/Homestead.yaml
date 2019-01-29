@@ -15,6 +15,9 @@ folders:
 sites:
     - map: myfirstsite.local
       to: /home/vagrant/code/myfirstsite/public
+    - map: frozengraphics.local
+      to: /home/vagrant/code/frozengraphics/public
+
 
 
 databases:

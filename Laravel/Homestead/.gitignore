@@ -2,6 +2,7 @@
 /.vagrant
 phpunit.xml
 /Homestead.json
+/Homestead.yaml
 /after.sh
 /aliases
 /mysqldump.sql.gz
